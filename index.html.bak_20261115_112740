@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ReDo — Sustainable products made from discarded garlic peels and recycled paper. Rethink, Reuse, Reform.">
+    <meta name="keywords" content="ReDo, sustainable, eco-friendly, garlic peels, recycled paper, cup placemat, organizer, Bulacan, Philippines">
+    <meta property="og:title" content="ReDo — Rethink, Reuse, Reform">
+    <meta property="og:description" content="Sustainable products made from discarded garlic peels & recycled paper.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:type" content="website">
+    <title>ReDo — Rethink, Reuse, Reform</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="logo.png" alt="ReDo Logo" class="logo-img">
+                <span class="logo-text">ReDo</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#order" class="nav-link">Order</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    🌱 100% Sustainable
+                </div>
+                <h1 class="hero-title">
+                    Rethink.<br>
+                    Reuse.<br>
+                    <span class="hero-highlight">Reform.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Sustainable products made from <strong>discarded garlic peels</strong> and <strong>recycled paper pulp</strong> — giving waste a second life.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-num">100%</div>
+                        <div class="stat-label">Biodegradable</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">2</div>
+                        <div class="stat-label">Products</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">₱50</div>
+                        <div class="stat-label">Starting Price</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="logo.png" alt="ReDo Logo" class="hero-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Products</span>
+                <h2 class="section-title">Made from Waste, Made with Love</h2>
+                <p class="section-subtitle">Each product is handcrafted from upcycled garlic peels and recycled paper pulp.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Cup Placemat -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="placemat.png" alt="ReDo Cup Placemat">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ReDo Cup Placemat</h3>
+                        <p class="product-desc">
+                            A round, flat mat made from upcycled garlic peels and recycled paper pulp. Protects tables from heat, scratches, and water stains.
+                        </p>
+                        <div class="product-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Shape:</span>
+                                <span class="detail-value">Round</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Color:</span>
+                                <span class="detail-value">Green</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">₱50</div>
+                            <a href="#order" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizer -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="organizer.png" alt="ReDo Multi-Purpose Organizer">
+                        <div class="product-badge new">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ReDo Multi-Purpose Organizer</h3>
+                        <p class="product-desc">
+                            A cup-shaped organizer made from garlic peels and recycled paper pulp. Perfect for makeup brushes, pens, and office supplies.
+                        </p>
+                        <div class="product-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Type:</span>
+                                <span class="detail-value">Cup-shaped</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Color:</span>
+                                <span class="detail-value">Natural</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">₱50</div>
+                            <a href="#order" class="btn btn-small">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About ReDo</span>
+                    <h2 class="section-title">Giving Waste a Second Life</h2>
+                    <p class="about-text">
+                        <strong>ReDo</strong> is a sustainable manufacturing business that transforms discarded garlic peels and recycled paper pulp into useful, eco-friendly non-food products.
+                    </p>
+                    <p class="about-text">
+                        Our goal is to give waste materials a second life while creating affordable, functional, and creative products for everyday use.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">🌱</div>
+                            <div class="feature-text">
+                                <h4>Eco-Friendly</h4>
+                                <p>Made from 100% upcycled materials</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">♻️</div>
+                            <div class="feature-text">
+                                <h4>Sustainable</h4>
+                                <p>Reduces waste, saves the planet</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🇵🇭</div>
+                            <div class="feature-text">
+                                <h4>Locally Made</h4>
+                                <p>Proudly made in Bulacan, Philippines</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">💚</div>
+                            <div class="feature-text">
+                                <h4>Affordable</h4>
+                                <p>Quality products, student-friendly prices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="about-card-icon">🌿</div>
+                        <h3>Our Mission</h3>
+                        <p>To create a cleaner, greener future by transforming waste into functional, beautiful products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORDER SECTION -->
+    <section class="order" id="order">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How to Order</span>
+                <h2 class="section-title">Order in 3 Easy Steps</h2>
+                <p class="section-subtitle">We accept GCash, Maya, and Cash on Delivery.</p>
+            </div>
+
+            <div class="order-steps">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h3 class="step-title">Send Your Order</h3>
+                    <p class="step-desc">Message us on Facebook or send an email with your order details.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h3 class="step-title">Get Confirmation</h3>
+                    <p class="step-desc">We'll send you an order confirmation via email with payment details.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h3 class="step-title">Pay & Receive</h3>
+                    <p class="step-desc">Pay via GCash, Maya, or COD. We'll deliver your order!</p>
+                </div>
+            </div>
+
+            <div class="order-cta">
+                <h3>Ready to Order?</h3>
+                <p>Send us a message with your name, contact, email, and order details.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.facebook.com/elmer.tinaan#" target="_blank" class="btn btn-primary">Message on Facebook</a>
+                    <a href="mailto:elmertinaanamor@gmail.com?subject=ReDo Order&body=Hi ReDo!%0A%0AName:%0AContact:%0AEmail:%0AProduct:%0AQuantity:%0AAddress:%0A%0AThank you!" class="btn btn-secondary">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+            </div>
+            <div class="contact-grid">
+                <a href="https://www.facebook.com/elmer.tinaan#" target="_blank" class="contact-card">
+                    <div class="contact-icon">📘</div>
+                    <h4>Facebook</h4>
+                    <p>facebook.com/elmer.tinaan</p>
+                </a>
+                <a href="https://instagram.com/choxdz" target="_blank" class="contact-card">
+                    <div class="contact-icon">📷</div>
+                    <h4>Instagram</h4>
+                    <p>@choxdz</p>
+                </a>
+                <a href="mailto:elmertinaanamor@gmail.com" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h4>Email</h4>
+                    <p>elmertinaanamor@gmail.com</p>
+                </a>
+                <a href="tel:+639123456789" class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h4>Phone</h4>
+                    <p>0912 345 6789</p>
+                </a>
+            </div>
+
+            <div class="payment-info">
+                <h3>Payment Methods</h3>
+                <div class="payment-grid">
+                    <div class="payment-card">
+                        <div class="payment-icon">💙</div>
+                        <h4>GCash</h4>
+                        <p>0912 345 6789</p>
+                    </div>
+                    <div class="payment-card">
+                        <div class="payment-icon">💚</div>
+                        <h4>Maya</h4>
+                        <p>0912 345 6789</p>
+                    </div>
+                    <div class="payment-card">
+                        <div class="payment-icon">💵</div>
+                        <h4>COD</h4>
+                        <p>Cash on Delivery</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="location-info">
+                <h3>📍 Visit Us</h3>
+                <p>EVR Avenue, Area D, Barangay Sta. Cruz 1,<br>San Jose del Monte City, Bulacan</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="ReDo" class="footer-logo">
+                    <p>Rethink. Reuse. Reform.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#order">Order</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 ReDo. All rights reserved. | Made with 💚 in Bulacan, Philippines</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
